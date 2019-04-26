@@ -1,0 +1,532 @@
+table.dataTable.dtr-column>tbody>tr>td.control,
+table.dataTable.dtr-column>tbody>tr>th.control {
+  position: relative;
+  cursor: pointer;
+  width: auto;
+  text-align: right;
+}
+
+/* This sets the View Details Box */
+table.dataTable.dtr-column>tbody>tr>td.control:before,
+table.dataTable.dtr-column>tbody>tr>th.control:before {
+  font-family: inherit;
+  font-size: 17px;
+  content: '+';
+  padding-top: 6px;
+  margin-right: 3px;
+  margin-left: 9px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-color: #31a2ac;
+  color: white;
+  border-radius: 3px;
+  top: unset;
+  left: unset;
+  height: unset;
+  width: 1px;
+  display: unset;
+  position: unset;
+  border: unset;
+  box-shadow: unset;
+  box-sizing: unset;
+  text-indent: unset;
+  line-height: unset;
+}
+
+table.dataTable.dtr-column>tbody>tr.parent td.control:before,
+table.dataTable.dtr-column>tbody>tr.parent th.control:before {
+  content: 'Hide';
+  background-color: #d80101a4;
+}
+
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child,
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child {
+  min-width: 32px;
+  position: relative;
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+table.dataTable>tbody>tr.child ul.dtr-details {
+  display: inline-block;
+  margin: 0;
+  width: -webkit-fill-available;
+  padding: 0;
+}
+
+/* Fixed padding for dt */
+table.dataTable {
+  padding: 8px !important;
+}
+
+table.dataTable.dtr-column>tbody>tr>td table.dtr-data {
+  padding: 12%;
+}
+
+/* Center Allign all the td data */
+table.dataTable.nowrap th,
+table.dataTable.nowrap td {
+  text-align: left;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 3px;
+  border-left: 2px #00000024 solid;
+  border-bottom: 2px #00000021 solid;
+}
+
+/* Fixed padding for dt */
+.enquiry-content {
+  padding: 0px;
+  width: 95%;
+}
+
+/* Show Entries label setup */
+div.dataTables_wrapper div.dataTables_length label {
+  display: -webkit-inline-box;
+  white-space: nowrap;
+}
+
+/* Show Entries input setup */
+div.dataTables_wrapper div.dataTables_length input {
+  display: -webkit-inline-box;
+  max-height: 24px;
+}
+
+/* Search label setup */
+div.dataTables_wrapper div.dataTables_filter label {
+  white-space: nowrap;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+  margin-left: unset;
+  display: unset;
+  width: 62%;
+  margin: 10px;
+  margin-right: 0;
+}
+
+/* Positioning of the Search box */
+div.dataTables_wrapper div.dataTables_filter {
+  text-align: -webkit-left
+}
+
+
+
+/* Positioning of Show 10, 20, 50 ,100 entries Selector */
+div.dataTables_wrapper div.dataTables_lenght {
+  text-align: -webkit-left
+}
+
+/* Positioning of Show 10, 20, 50 ,100 entries Selector */
+@media screen and (max-width: 767px) {
+  div.dataTables_wrapper div.dataTables_length {
+    text-align: -webkit-left
+  }
+}
+
+/* This is the Show 10, 20, 50 ,100 entries Selector */
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.child,
+table.dataTable.dtr-inline.collapsed>tbody>tr>th.child,
+table.dataTable.dtr-inline.collapsed>tbody>tr>td.dataTables_empty {
+  cursor: default !important;
+  text-align: -webkit-left;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+  margin-top: 5.5%;
+}
+
+table.dataTable>tbody>tr.child ul.dtr-details>li {
+  border-bottom: 1px solid #796c6c !important;
+  border-left: 4px solid;
+  border-top: 1px solid #fdfdfd !important;
+  padding-top: 3px !important;
+  padding-bottom: 0px;
+  padding-left: 25px;
+  background: #e6e6e6;
+}
+
+label {
+  display: unset;
+}
+
+/* Offests the ttitle from the data when the + is displayed ( prevents bunching )*/
+table.dataTable>tbody>tr.child span.dtr-title {
+  text-align: -webkit-left;
+}
+
+table.dataTable thead>tr>th.sorting_asc,
+table.dataTable thead>tr>th.sorting_desc,
+table.dataTable thead>tr>th.sorting,
+table.dataTable thead>tr>td.sorting_asc,
+table.dataTable thead>tr>td.sorting_desc,
+table.dataTable thead>tr>td.sorting,
+table.dataTable thead>tr>th.control.sorting_disabled {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  padding-left: 3px;
+  border-left: 2px #00000024 solid;
+  border-bottom: 2px #00000021 solid;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+  white-space: unset;
+  text-align: -webkit-center;
+  margin-bottom: 15px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+  white-space: unset;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+  margin: 0;
+  white-space: unset;
+  text-align: center;
+}
+
+/* @media (max-width: 991px) {
+    table.table {
+        width: 200px;
+        overflow: scroll;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    table.table  {
+        width: 400px;
+        overflow: scroll;
+    }
+}
+table.table {
+    width: 600px;
+    overflow: scroll;
+}  */
+
+.dash-tables {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 6px;
+  border-width: 2px;
+  border-color: black;
+  border: 2px solid #000 !important;
+}
+
+.buttonMoon {
+  padding: 20px
+}
+
+.buttonMoon button {
+  background-color: white;
+  border-width: 1px;
+  border-color: #31a2ac;
+  color: #31a2ac
+}
+
+.buttonMoon button:hover {
+  background-color: #31a2ac;
+  color: white
+}
+
+/* table {
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+}
+table  td{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+/* .stable-table {
+    width: 500px
+} */
+
+
+/* ################## sidebar menu ################# */
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+#wrapper.toggled .sidebar-nav {
+  display: none;
+}
+
+#menu-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.sidebar a:focus,
+.sidebar a:hover,
+.sidebar a:active {
+  background-color: #31a2ac !important;
+}
+
+@media screen and (max-width: 576px) {
+  #wrapper .sidebar-nav {
+    display: none;
+  }
+
+  #wrapper.toggled .sidebar-nav {
+    display: block !important;
+  }
+
+  .sidebar {
+    position: inherit;
+    padding-bottom: 0px;
+    margin-bottom: 1rem;
+  }
+
+  #menu-toggle {
+    background-color: #31a2ac;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #wrapper.toggled .sidebar-nav {
+    display: block;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+}
+
+
+.sidebar {
+  position: sticky;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #2d4373;
+
+}
+
+.sidebar a {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: .2rem;
+  padding: .75rem 1rem;
+}
+
+.sidebar em {
+  font-size: 1rem;
+}
+
+.sidebar h1 {
+  color: #ffffff;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.sidebar .site-title a {
+  font-size: .9rem;
+  padding-left: 0;
+  padding-right: 0;
+  cursor: pointer;
+}
+
+.sidebar .site-title a:hover {
+  background: none !important;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item+.nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+}
+
+.sidebar .logout-button {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 85%;
+  text-align: center;
+  border-radius: .3rem;
+}
+
+.sidebar .nav ul.children {
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .nav ul.children li a {
+  padding: .5rem 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+.sidebar .nav ul.children li a:visited {
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: #ffffff !important;
+}
+
+.sidebar .nav ul.children li a:hover {
+  background: #31a2ac !important;
+  color: #ffffff !important;
+}
+
+#wrapper.toggled .sidebar-nav {
+  display: none;
+}
+
+#menu-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.sidebar a:focus,
+.sidebar a:hover,
+.sidebar a:active {
+  background-color: #31a2ac !important;
+}
+
+@media screen and (max-width: 576px) {
+  #wrapper .sidebar-nav {
+    display: none;
+  }
+
+  #wrapper.toggled .sidebar-nav {
+    display: block !important;
+  }
+
+  .sidebar {
+    /* position: inherit; */
+    padding-bottom: 0px;
+    margin-bottom: 1rem;
+  }
+
+  #menu-toggle {
+    background-color: #31a2ac;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #wrapper.toggled .sidebar-nav {
+    display: block;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+}
+
+.visibility {
+  display: none;
+}
+
+#features1,
+#features2,
+#features3,
+#features4 {
+  display: none;
+  text-align: right;
+}
+
+div.searchers {
+  text-align: right;
+  cursor: pointer;
+}
+
+#customer-enquiries-dt_filter,
+#customer-live-bookings-dt_filter,
+#customer-quotes-dt_filter,
+#customer-dt-reservation-requests_filter,
+.dataTables_filter {
+  text-align: right;
+  padding-right: 0px;
+  margin-right: 0px;
+  margin-left: auto;
+  max-width: 300px;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  right: 0.6em !important;
+  content: "\2228" !important;
+  width: 8px;
+  height: 18px;
+}
+
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc_disabled:before {
+  right: 1.1em !important;
+  content: "\2227" !important;
+  height: 18px !important;
+}
+
+table.dataTable thead {
+  font-size: initial !important;
+  margin: 20px !important;
+  min-height: 188px;
+}
+
+p:last-child {
+  width: unset !important;
+  margin: 12px auto;
+}
+
+table.dataTable.nowrap td {padding: 6px 5px;}
+
+table.dataTable thead>tr {
+  background-color: #f3f3f3 !important;
+  height: 40px !important;
+}
+
+table.dataTable>tbody>tr.child ul.dtr-details>li {
+  min-height: 36px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}

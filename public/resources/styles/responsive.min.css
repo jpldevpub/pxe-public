@@ -1,0 +1,201 @@
+@media (min-width:992px) and (max-width:1199px) {
+    body {
+        font-size: 15px
+    }
+
+    .home-content h1 {
+        font-size: 32px
+    }
+
+    .video-content h1 {
+        font-size: 38px
+    }
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 90%
+    }
+
+    .img-overlay {
+        height: 83%
+    }
+
+    .gallery-item {
+        margin-bottom: 40px
+    }
+
+    .nav>li>a {
+        padding: 10px 12px
+    }
+
+    .price-category.basic {
+        margin-left: 0
+    }
+
+    .price-category.advance {
+        margin-right: 0
+    }
+}
+
+@media (max-width:767px) {
+    html {
+        font-size: 80%
+    }
+
+    .download-content h1 {
+        font-size: 40px
+    }
+
+    .testimonial-img {
+        margin: 0 0 20px
+    }
+
+    .video-content h1 {
+        font-size: 26px
+    }
+
+    .home-content h1 {
+        font-size: 33px
+    }
+
+    .img-overlay {
+        height: 91%
+    }
+
+    .navbar-default .navbar-toggle {
+        border: 0;
+        background: #31a2ac
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff
+    }
+
+    .navbar-default .navbar-toggle:hover {
+        border: 0;
+        background: #31a2ac
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form,
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        border: 0
+    }
+
+    .gallery:hover .gallery-icon {
+        bottom: 50%;
+        left: 43%
+    }
+
+    .home {
+        background: url(../images/abstract-art-bg.jpg) top fixed;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        min-height: 700px;
+        width: 100%;
+        overflow: hidden
+    }
+}
+
+@media (max-width:480px) {
+    html {
+        font-size: 65%
+    }
+
+    .home-content h1 {
+        font-size: 20px
+    }
+
+    .download-content h1 {
+        font-size: 18px
+    }
+
+    .download-content button {
+        margin-top: 12px;
+        margin-left: -26px;
+        margin-right: -26px;
+        text-align: center;
+        font-size: 10px
+    }
+
+    .heading-content h3 {
+        font-size: 23px
+    }
+
+    .heading-content h5 {
+        font-size: 12px
+    }
+
+    .btn-default {
+        margin-bottom: 20px
+    }
+
+    .price-category.professional h4 {
+        font-size: 20px
+    }
+
+    .img-overlay {
+        height: 87%
+    }
+
+    .gallery:hover .gallery-icon {
+        bottom: 50%;
+        left: 40%
+    }
+
+    .carousel-indicators {
+        left: 200px
+    }
+
+    .video-content h1 {
+        font-size: 17px
+    }
+
+    input.form-control,
+    select.form-control,
+    textarea.form-control {
+        font-size: 10px
+    }
+
+    .navbar,
+    .navbar-header {
+        padding-left: 0
+    }
+}
+
+@media (max-width:320px) {
+    html {
+        font-size: 60.5%
+    }
+
+    .carousel-indicators .active,
+    .carousel-indicators li {
+        width: 45px
+    }
+
+    .img-overlay {
+        height: 80%
+    }
+
+    .gallery:hover .gallery-icon {
+        bottom: 50%;
+        left: 33%
+    }
+
+    .carousel-indicators {
+        left: 130px
+    }
+
+    .home-content h1 {
+        font-size: 19px
+    }
+
+    .video-content h1 {
+        font-size: 16px
+    }
+}

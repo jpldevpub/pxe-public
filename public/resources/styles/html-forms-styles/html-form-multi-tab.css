@@ -1,0 +1,107 @@
+#multi-step {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 10px;
+    max-width: -webkit-fill-available;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Style the input fields */
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+p:last-child {
+     margin-bottom: 10px; 
+}
+textarea {
+    margin-bottom: 10px;
+}
+
+#payment-box {
+    display: block;
+    position: relative;
+    padding: 25px;
+    background: #31a2ac12;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 11px;
+    max-height: fit-content;
+    box-shadow: 3px 3px 2px lightgray;
+}
+
+#vip-box-style {
+    display: block;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 25px;
+    background: #31a2ac12;
+    border-style: double;
+    border-color: black;
+    border-radius: 11px;
+    max-height: fit-content;
+    box-shadow: 3px 3px 2px lightgray;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+    margin-bottom: 10px;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: #00a2ff;
+}
+
+.bookingInformation {
+    border: 1px solid #aaaaaa;
+    padding: 20px;
+    box-shadow: 3px 3px 2px lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-booking-info {
+  border: 1px solid #aaaaaa;
+  box-shadow: 3px 3px 2px lightgray;
+  max-width: -webkit-fill-available;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
